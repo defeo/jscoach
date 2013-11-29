@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://github.com/downloads/processing-js/processing-js/processing-1.4.1.min.js"></script>
+  </head>
+  <body>
+    <script type="application/processing" data-processing-target="canvas">
+      class Player {
+        float x, y, xto, yto;
+        int n;
+
+        Player(int n, float x, float y) {
+          this.xto = this.x = x;
+          this.yto = this.y = y;
+          this.n = n;
+        }
+
+        void moveTo(float x, float y) {
+          this.xto = x;
+          this.yto = y;
+        }
+
+        bool draw() {
+          pushStyle();
+          fill(0);
+          textAlign(CENTER, CENTER);
+          text(this.n, x, y);
+          fill(0,0);
+          ellipse(x, y, 20, 20);
+          popStyle();
+      
+          return animate();
+        }
+
+        bool animate() {
+          if (xto != x || yto != y) {
+            float dx = xto - x;
+            float dy = yto - y;
+            float hyp = sqrt(dx*dx + dy*dy);
+            if (!(hyp > 1)) {
+              x = xto; y = yto;
+              return true;
+	    } else {
+              x += dx/hyp; y += dy/hyp;
+              return false;
+            }
+          }
+        }
+      }
+
+      class Move {
+        Player p;
+        float x, y;
+        
+        Move(p, x, y) {
+          this.p = p;
+          this.x = x;
+          this.y = y;
+        }
+      
+        void start() {
+          p.moveTo(x, y);
+        }
+      
+        bool draw() {
+          return p.draw();
+        }
+      }
+      
+      int i;
+
+      void setup() {
+        size(400, 400);
+        background(230);
+        frameRate(400);
+        i = 0;
+        moves[0].start();
+      }
+		  
+      void draw() {
+        background(230);
+        if (!(i >= moves.length)) {
+          if (moves[i].draw()) moves[++i].start();
+        }
+      }
+
+      Player p = new Player(1, 50, 50);
+      Move[] moves = {new Move(p, 10, 10),
+                      new Move(p, 100, 200),
+                      new Move(p, 400, 200),
+                      new Move(p, 200, 100),
+                      new Move(p, 100, 200)};
+
+    </script>
+    <canvas id="canvas"></canvas>
+  </body>
+</html>
