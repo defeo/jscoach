@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<svg
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   version="1.1"
+   viewBox="0 -25 800 425"
+   fill="none"
+   stroke="black"
+   stroke-linecap="square"
+   stroke-miterlimit="10"
+   id="main"
+   width="100%"
+   height="100%"
+   sodipodi:docname="transi.svg">
+   <sodipodi:namedview
+      pagecolor="#ffffff"
+      bordercolor="#666666"
+      borderopacity="1"
+      objecttolerance="10"
+      gridtolerance="10"
+      guidetolerance="10"
+      id="namedview94"
+      showgrid="false"
+      />
+   <metadata
+      id="metadata98">
+      <rdf:RDF>
+         <cc:Work
+            rdf:about="">
+            <dc:format>image/svg+xml</dc:format>
+            <dc:type
+               rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+            <dc:title />
+         </cc:Work>
+      </rdf:RDF>
+   </metadata>
+
+
+   <g id="court" stroke="black" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round">
+      <path d="m 5.7115116,1.0810163 368.5354384,0 0,375 -368.5354384,0 z"
+         style="fill:#b45f06;fill-rule:nonzero;" />
+      <path d="m -5.821522,329.17554 390.582692,0"/>
+      <path d="m 147.70604,329.1755 0,0 c 0,-23.06548 18.69827,-41.7638 41.76378,-41.7638 l 0,0 c 11.07644,0 21.69922,4.40013 29.53145,12.23234 7.83223,7.83226 12.23233,18.45502 12.23233,29.53146 l 0,0 c 0,23.0655 -18.69829,41.76377 -41.76378,41.76377 l 0,0 c -23.06551,0 -41.76378,-18.69827 -41.76378,-41.76377 z"/>
+      <path d="m 135.20079,1.8842069 108.28346,0 0,125.7637831 -108.28346,0 z"/>
+      <path d="m 135.45538,105.06804 -4.62993,0"/>
+      <path d="m 248.11417,105.06804 -4.62992,0"/>
+      <path d="m 248.11417,80.46174 -4.62992,0"/>
+      <path d="m 135.45538,80.46174 -4.62993,0"/>
+      <path d="m 248.11417,36.91318 -4.62992,0"/>
+      <path d="m 135.45538,36.91318 -4.62993,0"/>
+      <path d="m 131.83333,55.22814 2.61418,0 0,6.96063 -2.61418,0 z"/>
+      <path d="m 244.49213,55.22814 2.61417,0 0,6.96063 -2.61417,0 z"/>
+      <path d="m 344.18497,31.820324 c 1.46011,41.929371 -14.21667,82.645536 -43.41907,112.769036 -29.20236,30.1235 -69.41222,47.05679 -111.3667,46.89907"/>
+      <path d="m 35.77347,31.820324 c -1.460127,41.929371 14.216673,82.645536 43.41905,112.769036 29.20238,30.1235 69.41223,47.05679 111.36671,46.89907"/>
+      <path d="m 35.6826,34.297367 0,-32.4724413"/>
+      <path d="m 344.2784,34.297367 0,-32.4724413"/>
+      <path d="m 232.27173,127.11543 0,0 c -0.63155,23.36857 -19.83869,41.93946 -43.21526,41.78376 -23.37657,-0.15572 -42.33462,-18.98084 -42.6548,-42.35574"/>
+      <path d="m 218.41602,37.199272 0,0 c 0,0.193344 -0.002,0.386685 -0.006,0.579991"/>
+      <path d="m 168.521,11.755701 42.3622,0"/>
+      <path d="m 189.31364,11.690084 0,3.905512"/>
+   </g>
+
+   <defs id="divers">
+      <symbol id="ring" stroke="black">
+         <circle cx="189.5" cy="25" r="10"/>
+      </symbol>
+      <symbol id="ball" stroke="black" style="fill:#ff0000;overflow:visible">
+         <circle cx="250" cy="-5" r="7"/>
+      </symbol>
+   </defs>
+   <defs id="joueurs">
+      <symbol id="joueur1" stroke="black">
+         <circle cx="250" cy="160" r="12"/>
+         <text x="246" y="164">1</text>
+      </symbol>
+      <symbol id="joueur2" stroke="black">
+         <circle cx="250" cy="120" r="12"/>
+         <text x="246" y="124">2</text>
+      </symbol>
+      <symbol id="joueur3" stroke="black" style="overflow:visible">
+         <circle cx="250" cy="-10" r="12"/>
+         <text x="246" y="-6">3</text>
+      </symbol>
+      <symbol id="joueur4" stroke="black">
+         <circle cx="250" cy="40" r="12"/>
+         <text x="246" y="44">4</text>
+      </symbol>
+      <symbol id="joueur5" stroke="black">
+         <circle cx="250" cy="80" r="12"/>
+         <text x="246" y="84">5</text>
+      </symbol>
+   </defs>
+
+   <!-- LES MOUVEMENTS -->
+
+   <use xlink:href="#joueur1" fill='#ffff00'>
+     <animateMotion begin="go.click" dur="1s" path="m0,0l35,-40l-115,-90" id="cut1" fill="freeze" />
+     <animate begin="cut1.end" id="flash1" attributeName="fill" values="red;yellow" repeatCount="3" dur="0.2s"/>
+     <animateMotion begin="go1.click" dur="1s" path="m-80,-130l-150,30l30,80" id="exit1" fill="freeze" />
+     <animateMotion begin="go4.click" dur="1s" path="m-200,-20l200,60" id="transition" fill="freeze" />
+   </use>
+   <use xlink:href="#joueur2" fill='#ffff00'>
+     <animateMotion begin="go1.click" dur="1s" path="m0,0l0,-15l110,-70" id="cut2" fill="freeze" />
+     <animate begin="cut2.end" id="flash2" attributeName="fill" values="red;yellow" repeatCount="3" dur="0.2s"/>
+   </use>
+   <use xlink:href="#joueur3" fill='#ffff00' id="j3">
+     <animateMotion begin="go4.click" dur="1s" path="m0,0l-200,140" id="cut3" fill="freeze" />
+   </use>
+   <use xlink:href="#joueur4" fill='#ffff00'>
+     <animateMotion begin="go2.click" dur="0.3s" path="m0,0l-5,15" id="screen4" fill="freeze" />
+     <animateMotion begin="go3.click" dur="0.8s" path="m-5,15l5,120" id="cut4" fill="freeze" />
+   </use>
+   <use xlink:href="#joueur5" fill='#ffff00'>
+     <animateMotion begin="screen4.end" dur="0.5s" path="m0,0l-60,-30" id="cut5" fill="freeze" />
+     <animate begin="cut5.end" id="flash5" attributeName="fill" values="red;yellow" repeatCount="3" dur="0.2s"/>
+     <animateMotion begin="go3.click" dur="0.5s" path="m-60,-30l-60,-30" id="exit5" fill="freeze" />
+   </use>
+   <use xlink:href="#ball" fill='#ffff00'>
+     <animateMotion begin="cut4.end" dur="0.2s" path="m0,0l0,170" id="inbound" fill="freeze"/>
+     <animateMotion begin="go4.click" dur="0.1s" path="m0,170l0,20" fill="freeze"/>
+     <animateMotion begin="transition.end+0.2s" dur="0.2s" path="m0,190l10,10" id="end" fill="freeze"/>
+   </use>
+   <use xlink:href="#ring">
+   </use>
+
+
+   <!-- COACH CARTER -->
+   <g id="coach_carter">
+      <rect x="420" y="10" width="370" height="350" stroke="black" fill="lightyellow"/>
+      <image x="699.5" y="245" width="90.5" height="115" xlink:href="carter.png" />
+      <g transform="translate(430,40)" fill="black">
+      <text id="t1">
+         <tspan x="0">Ce systéme permet de créer une </tspan>
+         <tspan x="0" dy="20">occasion facile pour le joueur 5.</tspan>
+         <tspan x="0" dy="20">Avant de commencer, tout joueur doit</tspan>
+         <tspan x="0" dy="20">connaître son rôle, qui peut être</tspan>
+         <tspan x="0" dy="20">déterminéauparavant, ou par sa position</tspan>
+         <tspan x="0" dy="20">par rapport au ballon. Il est important</tspan>
+         <tspan x="0" dy="20">de communiquer rapidement pour la mise</tspan>
+         <tspan x="0" dy="20">en place du systéme.</tspan>
+         <tspan x="0" dy="40">Lorsqe 3 crie "Ligne" et tape dans le</tspan>
+	 <tspan x="0" dy="20">ballon, 1 profite de l'un des trois écrans</tspan>
+         <tspan x="0" dy="20">pour couper vers le panier.</tspan>
+         <set attributeName="display" to="none" begin="flash1.end"/>
+      </text>
+      <text id="t2" display="none" >
+         <tspan x="0">Si la passe n'est pas facile</tspan>
+         <tspan x="0" dy="20">1 sort à 45° à l'opposé.</tspan>
+         <tspan x="0" dy="40">2 profite de l'un des trois écrans</tspan>
+         <tspan x="0" dy="20">pour couper en 0.</tspan>
+         <set attributeName="display" to="inline" begin="flash1.end"/>
+         <set attributeName="display" to="none" begin="flash2.end"/>
+      </text>
+      <text id="t3" display="none" >
+         <tspan x="0">On évite la passe à 2 à moins qu'il</tspan>
+         <tspan x="0" dy="20">n'ait la main très chaude.</tspan>
+         <tspan x="0" dy="40">4 pose un écran pour 5. 5 va vers</tspan>
+         <tspan x="0" dy="20">le panier. L'objectif du système est</tspan>
+         <tspan x="0" dy="20">de libérer 5 pour cette passe.</tspan>
+         <set attributeName="display" to="inline" begin="flash2.end"/>
+         <set attributeName="display" to="none" begin="flash5.end"/>
+      </text>
+      <text id="t4" display="none" >
+         <tspan x="0">Si la passe n'a pas réussi, 5 sort</tspan>
+         <tspan x="0" dy="20">en poste bas.</tspan>
+         <tspan x="0" dy="40">4 se retourne vers le ballon et récule</tspan>
+         <tspan x="0" dy="20">jusqu'aux trois points.</tspan>
+         <tspan x="0" dy="40">On envoie la balle à 4 (on peut passer</tspan>
+         <tspan x="0" dy="20">par 2 si nécessaire). Le système est fini,</tspan>
+         <tspan x="0" dy="20">C'est le début du jeu placé.</tspan>
+         <set attributeName="display" to="inline" begin="flash5.end"/>
+         <set attributeName="display" to="none" begin="inbound.end"/>
+      </text>
+      <text id="t5" display="none" >
+         <tspan x="0">1 va chercher la balle chez 4 avec un</tspan>
+         <tspan x="0" dy="20">main-à-main.</tspan>
+         <tspan x="0" dy="40">3 sprinte à l'opposé du ballon, occuper</tspan>
+         <tspan x="0" dy="20">la place libérée par 1 (3 sprinte toujours</tspan>
+         <tspan x="0" dy="20">à l'opposé du ballon, quoi qu'il arrive).</tspan>
+         <tspan x="0" dy="40">1 peut jouer le pick-and-roll avec 4,</tspan>
+         <tspan x="0" dy="20">ou donner à 2, pendant que 4 va se placer</tspan>
+         <tspan x="0" dy="20">au post bas.</tspan>
+         <set attributeName="display" to="inline" begin="inbound.end"/>
+         <set attributeName="display" to="none" begin="flash3.begin" />
+      </text>
+   </g>
+   </g>
+
+   <!-- BOUTONS -->
+   <g id="go" fill="#8f8" display="block" >
+      <rect id="button" x="300" y="350" height="30" width="75" fill="inherit"/>
+      <text x="320" y="370" font-size="20" fill="green">GO</text>
+      <set attributeName="display" to="none" begin="go.click " />
+      <set attributeName="display" to="block" begin="pass5.end+2s" />
+   </g>
+   <g id="go1" fill="#8f8" display="none" >
+      <use xlink:href="#button"/>
+      <text x="320" y="370" font-size="20" fill="green">GO</text>
+      <set attributeName="display" to="none" begin="go1.click " />
+      <set attributeName="display" to="block" begin="flash1.end" />
+   </g>
+   <g id="go2" fill="#8f8" display="none" >
+      <use xlink:href="#button"/>
+      <text x="320" y="370" font-size="20" fill="green">GO</text>
+      <set attributeName="display" to="none" begin="go2.click " />
+      <set attributeName="display" to="block" begin="flash2.end " />
+   </g>
+   <g id="go3" fill="#8f8" display="none" >
+      <use xlink:href="#button"/>
+      <text x="320" y="370" font-size="20" fill="green">GO</text>
+      <set attributeName="display" to="none" begin="go3.click " />
+      <set attributeName="display" to="block" begin="flash5.end " />
+   </g>
+   <g id="go4" fill="#8f8" display="none" >
+      <use xlink:href="#button"/>
+      <text x="320" y="370" font-size="20" fill="green">GO</text>
+      <set attributeName="display" to="none" begin="go4.click " />
+      <set attributeName="display" to="block" begin="inbound.end " />
+   </g>
+   <g id="reload" fill="#8f8" display="none" onclick="window.location.reload()">
+      <use xlink:href="#button"/>
+      <text x="300" y="370" font-size="20" fill="green">REPLAY</text>
+      <set attributeName="display" to="block" begin="end.end" />
+   </g>
+</svg>
